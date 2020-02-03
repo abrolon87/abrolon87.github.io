@@ -1,30 +1,34 @@
 ---
 layout: post
 title:      "My First CLI Gem "
-date:       2020-02-03 04:41:03 +0000
+date:       2020-02-02 23:41:04 -0500
 permalink:  my_first_cli_gem
 ---
 
 
 My first project assignment here at Flatiron was to build a CLI gem that also demonstrates scraping information from the internet using Nokogiri. I decided to create a gem that returns langauges that are spoken in a country selected by the user. I chose to do this because I am very interested in languages and I am pretty active in the polyglot space of the internet. The website that I scraped information from is the [World Factbook](https://www.cia.gov/library/publications/the-world-factbook/) and last but not least, the name of my gem is Babbel Explorer.
 
-##Getting Started
+## Getting Started
+
 I created Babbel Explorer from scratch so, I had to first figure out where to start. I watched several videos and took notes about how I wanted my gem to be set up. Once I had a pretty solid idea about what to do, I went ahead and ran `bundle gem babbel_explorer` from the terminal in VScode and got started. I also followed some other steps from the "Eden Events" videos that are on Learn Instruct. 
 
-##Writing the Code
+## Writing the Code
+
 I orignally thought that I would have 4 classes; CLI, Scraper, Country, and Language. I later decided I didn't need a Language class since I could scrape that information at the same time as the country information and just push it into an array in my Country class when initializing a country, so I deleted it. Now, I just have 3.
 
-###cli.rb
+### cli.rb
 This is where my CLI class lives. It is responsible for running the app, getting user input, displaying information collected by the Scraper....
 
-###scraper.rb
+### scraper.rb
 The Scraper class is responsible for getting the country and langauge information from the source page and giving it to the Country class....
 
-###country.rb
+### country.rb
 The Country class is responsible for initializing countries with the information that was scraped and then saving them in an array.
 
-##The Flow
-1. When the user runs the app, the call method puts out a greeting and then calls the menu method.
+
+## The Flow
+
+2. 1. When the user runs the app, the call method puts out a greeting and then calls the menu method.
 
 2. The menu method gives the options to view the country list or to exit. If the user input is invalid*, an error message is displayed and the menu is puts out again. 
 
@@ -38,7 +42,7 @@ The Country class is responsible for initializing countries with the information
 
 7. valid_input validates that the integer number entered by the user is less than or equal to the data(the list of countries) and greater than 0.  
 
-8. 7. show_language_blurb displays the language information that was retrieved by the scraper and then gives the user the option to quit or to select another country from the list.
+8. show_language_blurb displays the language information that was retrieved by the scraper and then gives the user the option to quit or to select another country from the list.
 
 9. explore_more confirms if the user is done using the app but also gives the option the view the country list again.
 
@@ -51,7 +55,8 @@ The Country class is responsible for initializing countries with the information
 ##The future of Babbel Explorer
 I do plan to add a few things to this gem. I would like to be able to group the countries by region so that the lists would be shorter. I would also like to be able to give the user an option to chose a language and see the countries that it is spoken in (according to the source page, of course).
 
-That's all for now. Feel free to check this repo out on GitHub [here](https://github.com/abrolon87/babbel_explorer_cli_gem).  Fork it, clone it, enjoy it! 
+That's all for now. Feel free to check this repo out on GitHub [here](https://github.com/abrolon87/babbel_explorer_cli_gem).  Fork it, clone it, enjoy!
+
 
 
 
