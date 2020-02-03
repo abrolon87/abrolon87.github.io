@@ -28,7 +28,7 @@ The Country class is responsible for initializing countries with the information
 
 ## The Flow
 
-2. 1. When the user runs the app, the call method puts out a greeting and then calls the menu method.
+1. When the user runs the app, the call method puts out a greeting and then calls the menu method.
 
 2. The menu method gives the options to view the country list or to exit. If the user input is invalid*, an error message is displayed and the menu is puts out again. 
 
