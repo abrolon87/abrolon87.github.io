@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Learning "Classy" Code"
+title:      "Learning Classy Code"
 date:       2020-01-10 11:43:16 -0500
 permalink:  learning_classy_code
 ---
