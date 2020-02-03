@@ -16,13 +16,13 @@ I created Babbel Explorer from scratch so, I had to first figure out where to st
 
 I orignally thought that I would have 4 classes; CLI, Scraper, Country, and Language. I later decided I didn't need a Language class since I could scrape that information at the same time as the country information and just push it into an array in my Country class when initializing a country, so I deleted it. Now, I just have 3.
 
-### cli.rb
+#### cli.rb
 This is where my CLI class lives. It is responsible for running the app, getting user input, displaying information collected by the Scraper....
 
-### scraper.rb
+#### scraper.rb
 The Scraper class is responsible for getting the country and langauge information from the source page and giving it to the Country class....
 
-### country.rb
+#### country.rb
 The Country class is responsible for initializing countries with the information that was scraped and then saving them in an array.
 
 
@@ -52,7 +52,7 @@ The Country class is responsible for initializing countries with the information
 *I made an invalid_input method because I was going to use it more than once however, I changed my code. I did decide to keep it though because I may need it in the future when I add to this gem. 
 
 
-##The future of Babbel Explorer
+## The future of Babbel Explorer
 I do plan to add a few things to this gem. I would like to be able to group the countries by region so that the lists would be shorter. I would also like to be able to give the user an option to chose a language and see the countries that it is spoken in (according to the source page, of course).
 
 That's all for now. Feel free to check this repo out on GitHub [here](https://github.com/abrolon87/babbel_explorer_cli_gem).  Fork it, clone it, enjoy!
