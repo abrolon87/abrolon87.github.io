@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Learning "Classy" Code"
-date:       2020-01-10 16:43:15 +0000
+date:       2020-01-10 11:43:16 -0500
 permalink:  learning_classy_code
 ---
 
