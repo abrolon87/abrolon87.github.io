@@ -10,11 +10,18 @@ My first project assignment here at Flatiron was to build a CLI gem that also de
 
 ## Getting Started
 
-I created Babbel Explorer from scratch so, I had to first figure out where to start. I watched several videos and took notes about how I wanted my gem to be set up. Once I had a pretty solid idea about what to do, I went ahead and ran `bundle gem babbel_explorer` from the terminal in VScode and got started. I also followed some other steps from the "Eden Events" videos that are on Learn Instruct. 
+I created Babbel Explorer from scratch so, I had to first figure out where to start. I watched several videos and took notes about how I wanted my gem to be set up. Once I had a pretty solid idea about what to do, I went ahead and ran `bundle gem babbel_explorer` from the terminal in VScode and got started. This provided me with a sort of 'template' of folders and files. I also followed some other steps from the "Eden Events" videos that are on Learn Instruct. 
 
 ## Writing the Code
 
-I orignally thought that I would have 4 classes; CLI, Scraper, Country, and Language. I later decided I didn't need a Language class since I could scrape that information at the same time as the country information and just push it into an array in my Country class when initializing a country, so I deleted it. Now, I just have 3.
+### ./bin
+This folder contains babbel_explorer which is the executable file to run the app. I also incuded a shebang line in this file so that so user doesn't have to explicitly call the Ruby interpreter.
+
+### ./lib 
+This folder contains my classes and babbel_explorer.rb which is used for my environment requirements. It also contains version.rb which states the version of the app.
+
+### Classes
+I orignally thought that I would have 4 classes; CLI, Scraper, Country, and Language. I later decided I didn't need a Language class since I could scrape that information at the same time as the country information and just push it into an array in my Country class when initializing a country, so I deleted it. Now, I just have 3. 
 
 #### cli.rb
 This is where my CLI class lives. It is responsible for running the app, getting user input, displaying information collected by the Scraper....
@@ -24,6 +31,8 @@ The Scraper class is responsible for getting the country and langauge informatio
 
 #### country.rb
 The Country class is responsible for initializing countries with the information that was scraped and then saving them in an array.
+
+
 
 
 ## The Flow
@@ -38,18 +47,16 @@ The Country class is responsible for initializing countries with the information
 
 5. country_list lists the countries and the user selects a country by its corresponding number.
 
-6.  get_selection calls valid_input to validate the user input and then calls show_language_blurb of the selected country.
+6.  get_selection calls validates the user input and then calls show_language_blurb of the selected country.
 
-7. valid_input validates that the integer number entered by the user is less than or equal to the data(the list of countries) and greater than 0.  
+7. show_language_blurb displays the language information that was retrieved by the scraper and then gives the user the option to quit or to select another country from the list.
 
-8. show_language_blurb displays the language information that was retrieved by the scraper and then gives the user the option to quit or to select another country from the list.
+8. explore_more confirms if the user is done using the app but also gives the option the view the country list again.
 
-9. explore_more confirms if the user is done using the app but also gives the option the view the country list again.
-
-10. exit displays a thank you message and then closes the app.
+9. exit displays a thank you message and then closes the app.
 
 
-*I made an invalid_input method because I was going to use it more than once however, I changed my code. I did decide to keep it though because I may need it in the future when I add to this gem. 
+*I made an invalid_input method because I was going to use it more than once however, I changed my code. I did decide to keep it though because I may need it in the future when I add to this gem. I also made a seperate method for validating input but decided not to use it at this time.
 
 
 ## The future of Babbel Explorer
