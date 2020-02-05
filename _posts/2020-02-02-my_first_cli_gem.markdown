@@ -60,9 +60,10 @@ The Country class is responsible for initializing countries with the information
 
 
 ## The future of Babbel Explorer
-I do plan to add a few things to this gem. I would like to be able to group the countries by region so that the lists would be shorter. I would also like to be able to give the user an option to chose a language and see the countries that it is spoken in (according to the source page, of course).
+I do plan to add a few things to this gem and publish it to rubygems.org. I would like to be able to give the user the option to view countries by region.  I would also like to be able to give the user an option to choose a language and see the countries that it is spoken in (according to the source page, of course).
 
-That's all for now. Feel free to check this repo out on GitHub [here](https://github.com/abrolon87/babbel_explorer_cli_gem).  Fork it, clone it, enjoy!
+That's all for now. Feel free to check this repo out on GitHub [here](https://github.com/abrolon87/babbel_explorer_cli_gem).  
+
 
 
 
