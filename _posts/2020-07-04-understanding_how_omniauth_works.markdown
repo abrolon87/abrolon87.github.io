@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Understanding how OmniAuth works"
-date:       2020-07-04 19:58:35 +0000
+date:       2020-07-04 15:58:36 -0400
 permalink:  understanding_how_omniauth_works
 ---
 
@@ -11,7 +11,7 @@ Before I get into how OmniAuth works, let me explain what it is. OmniAuth is a g
 <br>
 
 
-The way it works is we would register our application with a provider. Facebook, Google, GitHub are all very common ones. I used GitHub in my Rails project. Then we obtain a client_id and a client_secret. It is encrypted in a way to be more secure so in may look like nonsense. We save this in a .env file and **immedietly add the .env file to .gitignore. Do forget to do this before pushing to Github! Treat this info as you would a password** The code in your .env file should look something like this:
+Now let's talk about how to set it up and the way it works. We must first register our application with a provider. Facebook, Google, GitHub are all very common ones. I used GitHub in my Rails project. Then we obtain a client_id and a client_secret. It is encrypted in a way to be more secure so in may look like nonsense. We save this in a .env file and **immedietly add the .env file to .gitignore. Do forget to do this before pushing to Github! Treat this info as you would a password** The code in your .env file should look something like this:
 
 <br>
 
@@ -90,6 +90,8 @@ So in a real situation, when a user clicks on the link that says "Sign in with G
 
 
 And that is how OmniAuth works.
+
+If you would like to check out my repo that I have referred to in this blog, [Click here](https://github.com/abrolon87/vocabbank)
 
 Thank you for reading
 
