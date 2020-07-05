@@ -91,7 +91,7 @@ So in a real situation, when a user clicks on the link that says "Sign in with G
 
 And that is how OmniAuth works.
 
-If you would like to check out my repo that I have referred to in this blog, [Click here](https://github.com/abrolon87/vocabbank)
+If you would like to check out the repo for the app that I have referred to in this blog, [Click here](https://github.com/abrolon87/vocabbank)
 
 Thank you for reading
 
