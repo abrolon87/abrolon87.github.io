@@ -51,7 +51,7 @@ Once I had the backend all set, I started the frontend. I `cd ..` 'ed back into 
 
 Before going any further, this is where I would cd into /frontend and I would run `touch index.html`. Then `cd ..` back into the root project directory and run `git add /frontend/index.html`. From here on, I recommend having a split terminal inside of VSCode, (or Sublime, or whichever you use). One for frontend and one for backend. Also, keep your desktop terminal open in the root project directory to be able to run git commands easily without having to `cd` all the time.  
 
-Ok, back to the code....
+Ok, back to the code....(update coming)
 
 
 
