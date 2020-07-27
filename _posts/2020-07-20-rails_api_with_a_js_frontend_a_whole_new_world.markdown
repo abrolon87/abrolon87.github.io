@@ -17,7 +17,6 @@ Before we go any further, I want to tell everyone who reads this that they shoul
 This was the easy part of the project. First, I created the repo on Github and then cloned it. I cd'ed into the repo directory and that is where I ran `rails new backend --api`. I wanted "backend" as the name of my directory and `--api` leaves out things you don't need in an API. I did use the `active_model_serializers` gem. You can read more about that [here.](https://www.rubydoc.info/gems/active_model_serializers/0.8.2/ActiveModel/Serializer) I also used the `rack-cors` gem to make cross-origin happen. I did not use scaffold. I used rails g to generate the files I needed. 
 
 ### Models
-
 I have 2 models in my project; Problem and LifeAspect. A LifeAspect `has_many :problems` and a Problem `belongs_to :life_aspect`. 
 
 ### Controllers
@@ -51,9 +50,30 @@ Once I had the backend all set, I started the frontend. I `cd ..` 'ed back into 
 
 Before going any further, this is where I would cd into /frontend and I would run `touch index.html`. Then `cd ..` back into the root project directory and run `git add /frontend/index.html`. From here on, I recommend having a split terminal inside of VSCode, (or Sublime, or whichever you use). One for frontend and one for backend. Also, keep your desktop terminal open in the root project directory to be able to run git commands easily without having to `cd` all the time.  
 
-Ok, back to the code....(update coming)
+Ok, back to the code....
+
+I have three files in my frontend directory; index.html, index.js, and problem.js.
 
 
+### index.html
+This is the file that we open to see it in the browser. To do this, we run `rails s` from the backend directory terminal and `open index.html` from the frontend one. The file itself just contains some simple html for the layout of the page. It also includes the script tags so that it knows where the Javascript code is.
+
+
+
+`<script src="problem.js"></script>`
+
+`<script src="index.js"></script>`
+
+
+As you can see, the sources are the other two files in my frontend directory.
+
+
+### index.js
+My index.js file consists of the majority of the frontend code. This is where I use `fetch`. `fetch` sends a get request to get data from the backend.
+
+
+### problem.js
+This file contains the `Problem` class. It constructs instances of Problem and also renders the problems.
 
 
 
