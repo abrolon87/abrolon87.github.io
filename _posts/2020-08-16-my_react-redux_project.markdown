@@ -14,11 +14,10 @@ React is made up of components. Components do help with keeping things organized
 
 ### Props 
 
-Props is an object of the properties of the object that it is passed into. This makes it easier to have dynamic data.
+Props is an object of the properties of the object that it is passed into. This makes it easier to work dynamically. Props are not to be manipulated by the component that it is imported to. That is where "state" comes in.....
 
-
-# This blog post is not yet complete...Come back soon
-
+### State
+State is the data that a component maintains. It can change it's own state. You can only have state in class components.
 
 ## About Redux 
 
