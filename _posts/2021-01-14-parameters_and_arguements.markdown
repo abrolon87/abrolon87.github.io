@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Parameters and Arguements"
-date:       2021-01-15 03:20:10 +0000
+title:      "Parameters and Arguments"
+date:       2021-01-14 22:20:11 -0500
 permalink:  parameters_and_arguements
 ---
 
