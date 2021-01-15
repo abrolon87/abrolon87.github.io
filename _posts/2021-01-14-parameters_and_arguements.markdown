@@ -6,7 +6,7 @@ permalink:  parameters_and_arguements
 ---
 
 
-A few days ago, I saw that someone posted a question about an error they were getting. It brought back memories as I remember being as frustrated and confused as the poster seemed when encountering this error. The error was was an ArgumentError and it ususally says something like this:
+A few days ago, I saw that someone posted a question about an error they were getting. It brought back memories as I remember being as frustrated and confused as the poster seemed when encountering this error. The error was an ArgumentError and it ususally says something like this:
 
 ```wrong number of arguments (given 1, expected 0)```
 
