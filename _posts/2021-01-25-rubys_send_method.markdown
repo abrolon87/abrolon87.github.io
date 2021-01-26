@@ -19,7 +19,6 @@ and the output...
 ![](https://i.imgur.com/w87m169.png)
 
 So, in my code on line 3, we have nums which is an array that we are iterating using the .map method and each element in that array is being assigned to the variable n. Then we go to line 4...
-
 n is the object we will be calling .send on, or "sending a message to". As I mentioned, the first argument that .send takes is a symbol or string and it tries to find a method that matches it so in this case, op is a string and val is an integer that will be passed into op as an argument once the object(n) finds a method that matches the string in the op variable, which in the testcase is the addition(+) operator. So the result is, 4 will be added to each element in the nums array. 
 
 So .send gives us a way to dynamically call methods on objects. 
