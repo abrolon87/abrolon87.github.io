@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Permitting params in Rails"
-date:       2021-02-04 00:14:45 +0000
+date:       2021-02-03 19:14:46 -0500
 permalink:  permitting_params_in_rails
 ---
 
