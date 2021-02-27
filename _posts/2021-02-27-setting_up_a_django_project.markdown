@@ -14,13 +14,13 @@ Taking the time to plan out your project before starting it is very important an
 
 ### Create the virtual environment
 
-First, I will create a virtual environment. A virtual environment keeps Python packages separate from each other and you also need to do this if you plan to deploy a project. From within my project directory, I run 
+First, I will create a virtual environment. A virtual environment keeps Python packages separate from each other and you also need to do this if you plan to deploy a project. From within my project directory, I run:
 
 ```python3 -m venv lingovault_env```
 
 This creates a new directory called lingovault_env. 
 
-Now to activate the virtual environment, I run 
+Now to activate the virtual environment, I run: 
 
 ```source lingovault_env/bin/activate```
 
@@ -32,7 +32,7 @@ We know the virtual environment is active when we see the name of the virtual en
 
 ### Install Django
 
-With my virtual environment active, I run 
+With my virtual environment active, I run: 
 
 ```pip install django```
 
@@ -54,7 +54,7 @@ You can see the lingovault directory, lingovault_env directory, and the manage.p
 
 ### Create the database
 
-Now I am going to create the database. Again, with the virtual environment still active, I do this by running 
+Now I am going to create the database. Again, with the virtual environment still active, I do this by running: 
 
 ```python manage.py migrate```
 
