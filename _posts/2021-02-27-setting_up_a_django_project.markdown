@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Setting up a Django project"
-date:       2021-02-27 22:49:47 +0000
+date:       2021-02-27 17:49:47 -0500
 permalink:  setting_up_a_django_project
 ---
 
