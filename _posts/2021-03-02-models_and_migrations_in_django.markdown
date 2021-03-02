@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Models and migrations in Django"
-date:       2021-03-02 20:11:51 +0000
+date:       2021-03-02 15:11:51 -0500
 permalink:  models_and_migrations_in_django
 ---
 
 
-In today's blog, I will be walking you through the next few steps of building my Django app which involve creating the infrastructure needed to build the app and create models and migrations. Because this isn't a tutorial, I will not be going through more than one model or any other repetative steps in t
+In today's blog, I will be walking you through the next few steps of building my Django app, such as creating the infrastructure needed to build the app and create models and migrations. Because this isn't a tutorial, I will not be going through more than one model or any other repetative steps in this blog series.
 
 ### Start an app 
 
