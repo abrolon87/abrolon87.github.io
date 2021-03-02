@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Models and migrations in Django"
+title:      "Models and Migrations in Django"
 date:       2021-03-02 15:11:51 -0500
 permalink:  models_and_migrations_in_django
 ---
